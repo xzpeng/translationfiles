@@ -1,0 +1,7 @@
+<?php
+
+//
+
+str('library', 'Choose ...');
+
+?>

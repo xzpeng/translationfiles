@@ -1,0 +1,5 @@
+<?php
+
+	str('nbIndividuals', 'Individus');
+
+?>

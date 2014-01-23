@@ -1,0 +1,15 @@
+<?php
+
+str(LOCATION_HOME, 'Maison');
+str(LOCATION_WORK, 'Travail');
+
+str(LOCATION_STREET_TYPE_AVENUE, 'Avenue');
+str(LOCATION_STREET_TYPE_BOULEVARD, 'Boulevard');
+str(LOCATION_STREET_TYPE_DRIVE, 'Promenade');
+str(LOCATION_STREET_TYPE_LANE, 'Allée');
+str(LOCATION_STREET_TYPE_ROAD, 'Route');
+str(LOCATION_STREET_TYPE_ROW, 'Row');
+str(LOCATION_STREET_TYPE_STREEY, 'Rue');
+str(LOCATION_STREET_TYPE_WAY, 'Chemin');
+
+?>
