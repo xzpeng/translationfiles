@@ -9,7 +9,7 @@ $this->setString('form', 'preview.code', null, '模块代码');
 
 $this->setString('form', 'settings', null, '关于');
 $this->setString('form', 'settings.title', null, '关于');
-$this->setString('form', 'settings.catchphrase', null, '定义简单参数');
+$this->setString('form', 'settings.catchphrase', null, '定义快捷参数');
 $this->setString('form', 'settings.basic-infos.title', null, '基本信息');
 $this->setString('form', 'settings.title.label', null, '标题/主题');
 $this->setString('form', 'settings.title.placeholder', null, '标题');

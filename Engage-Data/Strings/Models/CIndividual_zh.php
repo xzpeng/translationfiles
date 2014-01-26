@@ -84,8 +84,8 @@ $this->setString(STRING_PROPERTY, 'title', array('label'), '标题');
 $this->setString(STRING_LIST, 'action', null, '行为');
 $this->setString(STRING_LIST, 'defaultName', null, '名称');
 $this->setString(STRING_LIST, 'icon', null, '');
-$this->setString(STRING_LIST, 'optInEmail', null, '选择性加入电子邮件');
-$this->setString(STRING_LIST, 'optInCellPhone', null, '选择性加入手机');
+$this->setString(STRING_LIST, 'optInEmail', null, '默认不发送电子邮件');
+$this->setString(STRING_LIST, 'optInCellPhone', null, '默认不联系手机号');
 
 
 // Placeholder
@@ -142,10 +142,10 @@ $this->setString(STRING_PROPERTY, 'languages', null, '语言');
 $this->setString(STRING_PROPERTY, 'languages', array('count'), '语言数量');
 $this->setString(STRING_PROPERTY, 'locations', null, '位置');
 $this->setString(STRING_PROPERTY, 'locations', array('count'), '位置数量');
-$this->setString(STRING_PROPERTY, 'optInCellPhone', null, '选择性加入手机');
-$this->setString(STRING_PROPERTY, 'optInCellPhone', array('label'), '选择性加入手机');
-$this->setString(STRING_PROPERTY, 'optInEmail', null, '选择性加入电子邮件');
-$this->setString(STRING_PROPERTY, 'optInEmail', array('label'), '选择性加入电子邮件');
+$this->setString(STRING_PROPERTY, 'optInCellPhone', null, '默认不联系手机号');
+$this->setString(STRING_PROPERTY, 'optInCellPhone', array('label'), '默认不联系手机号');
+$this->setString(STRING_PROPERTY, 'optInEmail', null, '默认不发送电子邮件');
+$this->setString(STRING_PROPERTY, 'optInEmail', array('label'), '默认不发送电子邮件');
 $this->setString(STRING_PROPERTY, 'stores', null, '店铺');
 $this->setString(STRING_PROPERTY, 'stores', array('count'), '店铺数量');
 $this->setString(STRING_PROPERTY, 'receipts', null, '收入');

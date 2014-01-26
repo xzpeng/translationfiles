@@ -18,8 +18,8 @@ pref
 //  String list
 
 $this->setString(STRING_LIST, 'defaultName', null, '姓名');
-$this->setString(STRING_LIST, 'optInEmail', null, '选择性加入邮箱地址');
-$this->setString(STRING_LIST, 'optInCellPhone', null, '选择性加入手机号码');
+$this->setString(STRING_LIST, 'optInEmail', null, '默认不发送电子邮件');
+$this->setString(STRING_LIST, 'optInCellPhone', null, '默认不联系手机号');
 
 
 ?>

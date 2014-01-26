@@ -19,7 +19,7 @@ pref
 
 $this->setString(STRING_LIST, 'value', null, '内容');
 $this->setString(STRING_LIST, 'type', null, '类型');
-$this->setString(STRING_LIST, 'isNotificationChannel', null, '选择性加入');
+$this->setString(STRING_LIST, 'isNotificationChannel', null, '默认不发送');
 $this->setString(STRING_LIST, 'isValid', null, '合法？');
 $this->setString(STRING_LIST, 'isChecked', null, '选中？');
 $this->setString(STRING_LIST, 'OptInEmail', null, '电子邮件');
@@ -92,7 +92,7 @@ $this->setString(STRING_SECTION, 'system', null, '系统');
 
 // Tags
 
-$this->setString(null, 'optIn', array('tag'), '选择性加入');
+$this->setString(null, 'optIn', array('tag'), '默认不发送');
 $this->setString(null, 'notValid', array('tag'), '不合法');
 $this->setString(null, 'notChecked', array('tag'), '未选中');
 $this->setString(null, 'valid', array('tag'), '合法');
