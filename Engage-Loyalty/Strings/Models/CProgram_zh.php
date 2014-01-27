@@ -75,7 +75,7 @@ $this->setString(STRING_SECTION, 'custom', null, '自定义');
 $this->setString(STRING_SECTION, 'individuals', null, '个人');
 $this->setString(STRING_SECTION, 'population', null, '群体');
 $this->setString(STRING_SECTION, 'demographics', null, '人口');
-$this->setString(STRING_SECTION, 'earn-burn', null, '盈亏');
+$this->setString(STRING_SECTION, 'earn-burn', null, '盈利&投资');
 $this->setString(STRING_SECTION, 'nQPoints', null, '不符合条件积分');
 $this->setString(STRING_SECTION, 'object', null, '对象');
 $this->setString(STRING_SECTION, 'qPoints', null, '符合条件积分');
