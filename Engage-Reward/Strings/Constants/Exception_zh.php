@@ -40,13 +40,13 @@ str(EXCEPTION_SOCIAL_POST_MESSAGE_FAIL . '?description', '看起来是尝试向�
 str(EXCEPTION_TAG_NAME_NOT_AVAILABLE, '该标签不在可用');
 str(EXCEPTION_TAG_NAME_NOT_AVAILABLE . '?description', '你为该标签选的名称已被分配给其他标签，请选择其他标签！');
 
-str(EXCEPTION_TAG_NAME_VALUE_REQUIRED, 'The tag name requires a value');
-str(EXCEPTION_TAG_NAME_VALUE_REQUIRED . '?description', 'One or more tag names have required values, but they have to be filled.');
+str(EXCEPTION_TAG_NAME_VALUE_REQUIRED, '标签名称需要一个值');
+str(EXCEPTION_TAG_NAME_VALUE_REQUIRED . '?description', '标签的名称是必填项，请填写。');
 
 
 // Exceptions related to categories
 
-str(EXCEPTION_CATEGORY_NAME_VALUE_REQUIRED, 'The category name requires a value');
-str(EXCEPTION_CATEGORY_NAME_VALUE_REQUIRED . '?description', 'One or more categories names have required values, but they have to be filled.');
+str(EXCEPTION_CATEGORY_NAME_VALUE_REQUIRED, '类别名称需要一个值');
+str(EXCEPTION_CATEGORY_NAME_VALUE_REQUIRED . '?description', '类别的名称是必填项，请填写。');
 
 ?>
