@@ -2,6 +2,6 @@
 
 //
 
-$this->setString(null, 'Computing dashboard', null, '计算仪表盘…');
+$this->setString(null, 'Computing dashboard', null, '统计面板…');
 
 ?>

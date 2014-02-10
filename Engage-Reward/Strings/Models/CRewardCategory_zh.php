@@ -45,7 +45,7 @@ str('CRewardCategory.property.description?placeholder', '你会如何描述此�
 
 str('CRewardCategory.property.name?help&description', '例如，\'食物\', \'个性化\', \'生态\'');
 str('CRewardCategory.property.name?label', '名称：');
-str('CRewardCategory.property.name?placeholder', '输入此类别的名称');
+str('CRewardCategory.property.name?placeholder', '输入类别名称');
 
 str('CRewardCategory.property.parentRewardCategoryId?help&description', '选择父类别');
 str('CRewardCategory.property.parentRewardCategoryId?label', '父类别：');

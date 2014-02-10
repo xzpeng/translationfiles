@@ -1,0 +1,8 @@
+<?php
+
+str(ACTION_EXPORT_TO_CSV, '导出为csv');
+str(ACTION_EXPORT_EMAIL_TO_EMAILFORGE, '导出到EF4 (电子邮件)');
+str(ACTION_EXPORT_SMS_TO_EMAILFORGE, '导出到EF4 (短信)');
+str(ACTION_CONVERT_TO_TARGET, '转换为目标');
+
+?>
