@@ -9,52 +9,52 @@ str(EXCEPTION_APPLICATION_ENVIRONMENT_NOT_DEFINED, '此应用的环境未定义'
 str(EXCEPTION_APPLICATION_ENVIRONMENT_NOT_DEFINED . '?description', '');
 
 str(EXCEPTION_APPLICATION_ERROR_INTERNAL, '发生内部错误');
-str(EXCEPTION_APPLICATION_ERROR_INTERNAL . '?description', 'The application has encountered an internal error. Our team is working on solving this problem. Thanks for being patient and try again later!');
+str(EXCEPTION_APPLICATION_ERROR_INTERNAL . '?description', '此应用发生一个内部错误。我们的团队正在努力解决。感谢您的耐心等待，请稍后重试！');
 
-str(EXCEPTION_APPLICATION_ERROR_UNKNOWN, 'An unknown error has occurred');
+str(EXCEPTION_APPLICATION_ERROR_UNKNOWN, '发生未知错误');
 str(EXCEPTION_APPLICATION_ERROR_UNKNOWN . '?description', '');
 
 
 // Exceptions related to array
 
-str(EXCEPTION_ARRAY_EXPECTED, 'An array was expected');
-str(EXCEPTION_ARRAY_EXPECTED . '?description', 'An array was expected, another of variables given');
+str(EXCEPTION_ARRAY_EXPECTED, '需要一个数组');
+str(EXCEPTION_ARRAY_EXPECTED . '?description', '需要一个数组，但是提供了一个其他参数');
 
-str(EXCEPTION_ARRAY_KEY_EXPECTED, 'A key in array is missing');
-str(EXCEPTION_ARRAY_KEY_EXPECTED . '?description', 'A key in array is missing');
+str(EXCEPTION_ARRAY_KEY_EXPECTED, '数组中一个键值缺失');
+str(EXCEPTION_ARRAY_KEY_EXPECTED . '?description', '数组中一个键值缺失');
 
 
 // Exceptions related to APIs
 
-str(EXCEPTION_API_ARGUMENT_NOT_FOUND, 'An argument is missing');
-str(EXCEPTION_API_ARGUMENT_NOT_FOUND . '?description', 'A mandatory argument is missing. Please refer to the documentation for this API and make sure that all required arguments are transferred.');
+str(EXCEPTION_API_ARGUMENT_NOT_FOUND, '一个参数缺失');
+str(EXCEPTION_API_ARGUMENT_NOT_FOUND . '?description', '一个强制性参数缺失。请参阅这个API的文档，并确保传递所有必需的参数。');
 
-str(EXCEPTION_API_ARGUMENT_NOT_VALID, 'The value of the argument is not valid');
-str(EXCEPTION_API_ARGUMENT_NOT_VALID . '?description', 'The value of the argument has been checked and deemed invalid. Check the syntax and make sure that it matches the expected pattern.');
+str(EXCEPTION_API_ARGUMENT_NOT_VALID, '此参数的值不合法');
+str(EXCEPTION_API_ARGUMENT_NOT_VALID . '?description', '此参数的值已检查并被视为无效。请检查语法，并确保它符合预期的模式。');
 
-str(EXCEPTION_API_NOT_FOUND, 'The API does not exist');
-str(EXCEPTION_API_NOT_FOUND . '?description', 'The API you are trying to call could not be found. Make sure the name of the API is referenced and correctly spelled.');
+str(EXCEPTION_API_NOT_FOUND, '此API不存在');
+str(EXCEPTION_API_NOT_FOUND . '?description', '未找到你试图调用的API。请确保API的名字是存在的而且拼写正确。');
 
-str(EXCEPTION_API_RESULT_NOT_VALID, 'The result of the API is not valid');
-str(EXCEPTION_API_RESULT_NOT_VALID . '?description', 'The application is not able to interpret the result of the API. It might be because an unexpected error has occurred during the API call.');
+str(EXCEPTION_API_RESULT_NOT_VALID, '此API的结果是无效的');
+str(EXCEPTION_API_RESULT_NOT_VALID . '?description', '该应用不能解析此API的结果。可能是因为在调用此API时发生意外错误。');
 
 
 // Exceptions related to database
 
-str(EXCEPTION_DATABASE_CONNECT_FAILED, 'Connection to the database failed');
-str(EXCEPTION_DATABASE_CONNECT_FAILED . '?description', 'Connecting to the database could not be completed successfully. Check your credentials and retry (database name, login, password, etc).');
+str(EXCEPTION_DATABASE_CONNECT_FAILED, '数据库连接失败');
+str(EXCEPTION_DATABASE_CONNECT_FAILED . '?description', '数据库连接无法成功完成。请检查你的证书然后重试（数据库名，用户名，密码等）。');
 
-str(EXCEPTION_DATABASE_DISCONNECT_FAILED, 'Disconnection from the database failed');
-str(EXCEPTION_DATABASE_DISCONNECT_FAILED . '?description', 'Disconnecting from the database could not be completed successfully. It might be because the connection has been lost.');
+str(EXCEPTION_DATABASE_DISCONNECT_FAILED, '断开数据库连接失败');
+str(EXCEPTION_DATABASE_DISCONNECT_FAILED . '?description', '断开数据库连接无法成功完成。可能是因为连接已丢失。');
 
-str(EXCEPTION_DATABASE_DRIVER_NOT_FOUND, 'The database driver could not be found');
-str(EXCEPTION_DATABASE_DRIVER_NOT_FOUND . '?description', 'The driver used to connect, parse and edit the database does not exist. Check that you have defined a valid database driver and retry.');
+str(EXCEPTION_DATABASE_DRIVER_NOT_FOUND, '未找到数据库驱动程序');
+str(EXCEPTION_DATABASE_DRIVER_NOT_FOUND . '?description', '用于连接，解析和编辑数据库的驱动程序不存在。请检查是否已经定义了一个有效的数据库驱动程序，然后重试。');
 
-str(EXCEPTION_DATABASE_QUERY_FAILED, 'The query has failed');
-str(EXCEPTION_DATABASE_QUERY_FAILED . '?description', 'A database query has been executed but did not succeed. Check the syntax of your query and retry.');
+str(EXCEPTION_DATABASE_QUERY_FAILED, '查询失败');
+str(EXCEPTION_DATABASE_QUERY_FAILED . '?description', '数据库查询已执行，但没有成功。请检查您的查询语法然后重试。');
 
-str(EXCEPTION_DATABASE_QUERY_IS_EMPTY, 'The query is empty');
-str(EXCEPTION_DATABASE_QUERY_IS_EMPTY . '?description', 'The database query has no content and can therefore not be executed. You can only execute non-empty database queries.');
+str(EXCEPTION_DATABASE_QUERY_IS_EMPTY, '该查询为空');
+str(EXCEPTION_DATABASE_QUERY_IS_EMPTY . '?description', '该数据库查询没有内容，因此不能被执行。你只能执行非空的数据库查询。');
 
 str(EXCEPTION_DATABASE_SELECT_FAILED, 'The database could not be found or is not granted');
 str(EXCEPTION_DATABASE_SELECT_FAILED . '?description', 'The selected database does not exist or access could not be granted. Check that you have defined a valid database name and that your user has the authorization to connect to it.');
