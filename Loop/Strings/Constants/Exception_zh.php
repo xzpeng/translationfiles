@@ -56,8 +56,8 @@ str(EXCEPTION_DATABASE_QUERY_FAILED . '?description', '数据库查询已执行�
 str(EXCEPTION_DATABASE_QUERY_IS_EMPTY, '该查询为空');
 str(EXCEPTION_DATABASE_QUERY_IS_EMPTY . '?description', '该数据库查询没有内容，因此不能被执行。你只能执行非空的数据库查询。');
 
-str(EXCEPTION_DATABASE_SELECT_FAILED, 'The database could not be found or is not granted');
-str(EXCEPTION_DATABASE_SELECT_FAILED . '?description', 'The selected database does not exist or access could not be granted. Check that you have defined a valid database name and that your user has the authorization to connect to it.');
+str(EXCEPTION_DATABASE_SELECT_FAILED, '数据库无法找到或未授权');
+str(EXCEPTION_DATABASE_SELECT_FAILED . '?description', '所选的数据库不存在或未授权。请检查是否已经定义了一个有效的数据库名称并且用户具有连接到它的授权。');
 
 
 // Exceptions related to factories
