@@ -62,101 +62,101 @@ str(EXCEPTION_DATABASE_SELECT_FAILED . '?description', '所选的数据库不存
 
 // Exceptions related to factories
 
-str(EXCEPTION_FACTORY_NOT_FOUND, 'The factory could not be found');
-str(EXCEPTION_FACTORY_NOT_FOUND . '?description', 'The factory you are trying to get does not seem to exist. Make sure the factory exists and retry.');
+str(EXCEPTION_FACTORY_NOT_FOUND, '未找到该factory');
+str(EXCEPTION_FACTORY_NOT_FOUND . '?description', '你要找的factory看上去不存在。请确认该factory已存在，然后重试。');
 
 
 // Exceptions related to features
 
-str(EXCEPTION_FEATURE_NOT_FOUND, 'The feature could not be found.');
-str(EXCEPTION_FEATURE_NOT_FOUND . '?description', 'The feature you are trying to get does not seem to exist. Make sure the feature exists and retry.');
-str(EXCEPTION_FEATURE_VARIABLE_NOT_FOUND, 'The variable needed could not be found for this feature.');
-str(EXCEPTION_FEATURE_VARIABLE_NOT_FOUND . '?description', 'The variable for a feature you are trying to get does not seem to exist. Make sure the variable for this feature exists and retry.');
+str(EXCEPTION_FEATURE_NOT_FOUND, '未找到该功能。');
+str(EXCEPTION_FEATURE_NOT_FOUND . '?description', '你要找的功能看上去不存在。请确认该功能已存在，然后重试。');
+str(EXCEPTION_FEATURE_VARIABLE_NOT_FOUND, '未找到此功能所需的变量。');
+str(EXCEPTION_FEATURE_VARIABLE_NOT_FOUND . '?description', '你要找的该功能的变量看上去不存在。请确认此功能的该变量存在，然后重试。');
 
 
 //Exceptions related to files
 
-str(EXCEPTION_FILE_NOT_FOUND, 'The file could does not exist');
-str(EXCEPTION_FILE_NOT_FOUND . '?description', 'The file could not be found at the given location. Make sure the file exists before trying to access it.');
+str(EXCEPTION_FILE_NOT_FOUND, '高文件可能不存在');
+str(EXCEPTION_FILE_NOT_FOUND . '?description', '未在提供的位置找到该文件。请确保在访问之前文件已存在。');
 
 
 // Exceptions related to functions
 
-str(EXCEPTION_FUNCTION_NOT_FOUND, 'The function could not be found');
-str(EXCEPTION_FUNCTION_NOT_FOUND . '?description', 'The function you are trying to call has not been defined. Make sure the name is correctly spelled and retry.');
+str(EXCEPTION_FUNCTION_NOT_FOUND, '未找到该函数');
+str(EXCEPTION_FUNCTION_NOT_FOUND . '?description', '你调用的函数未定义。请确保函数名字拼写正确，然后重试。');
 
 
 // Exceptions related to languages
 
-str(EXCEPTION_LANGUAGE_NOT_SUPPORTED, 'The language is not supported');
-str(EXCEPTION_LANGUAGE_NOT_SUPPORTED . '?description', 'The language you are trying to activate is not supported. Try switching to another, available language.');
+str(EXCEPTION_LANGUAGE_NOT_SUPPORTED, '不支持该语言。');
+str(EXCEPTION_LANGUAGE_NOT_SUPPORTED . '?description', '不支持你视图激活的语言。请选择其他可用语言。');
 
 
 // Exceptions related to models
 
-str(EXCEPTION_MODEL_NOT_FOUND, 'The model could not be found');
-str(EXCEPTION_MODEL_NOT_FOUND . '?description', 'THe model you are trying to manipulate does not exist. Make sure its extension and path are valid and retry.');
+str(EXCEPTION_MODEL_NOT_FOUND, '未找到该模型');
+str(EXCEPTION_MODEL_NOT_FOUND . '?description', '你要操作的模型不存在。请确定其扩展名和路径是有效的，然后重试。');
 
 
 // Exceptions related to rights
 
-str(EXCEPTION_PERMISSION_ON_CLASS_NOT_GRANTED, 'You don\'t have the right to perform this action on the class');
-str(EXCEPTION_PERMISSION_ON_CLASS_NOT_GRANTED . '?description', 'You don\'t have the right to perform this action on the class. It might be because the class access is restricted.');
+str(EXCEPTION_PERMISSION_ON_CLASS_NOT_GRANTED, '你没有在此类执行此操作的权限');
+str(EXCEPTION_PERMISSION_ON_CLASS_NOT_GRANTED . '?description', '你没有在此类执行此操作的权限。可能此类访问是受限的。');
 
-str(EXCEPTION_PERMISSION_DENIED, 'You don\'t have the right to perform this action');
-str(EXCEPTION_PERMISSION_DENIED . '?description', 'You don\'t have the right to perform this action. It might be because you don\'t belong to a restricted scope this action required.');
+str(EXCEPTION_PERMISSION_DENIED, '你没有执行此操作的权限');
+str(EXCEPTION_PERMISSION_DENIED . '?description', '您没有执行此操作的权限。可能因为你不属于此操作要求的一个受限制的范围。');
 
-str(EXCEPTION_PERMISSION_ON_VIEW_NOT_GRANTED, 'You don\'t have the right to perform this action on the view');
-str(EXCEPTION_PERMISSION_ON_VIEW_NOT_GRANTED . '?description', 'You don\'t have the right to perform this action on the view. It might be because the view access is restricted.');
+str(EXCEPTION_PERMISSION_ON_VIEW_NOT_GRANTED, '你没有在此视图执行此操作的权限');
+str(EXCEPTION_PERMISSION_ON_VIEW_NOT_GRANTED . '?description', '你没有在此视图执行此操作的权限。可能此视图访问是受限的。');
 
 
 // Exceptions related to date
 
-str(EXCEPTION_TIME_PERIOD_NOT_VALID, 'You can\'t choose an end date more recent than the start date.');
-str(EXCEPTION_TIME_PERIOD_NOT_VALID . '?description', 'Please modify the start or end date.'); 
+str(EXCEPTION_TIME_PERIOD_NOT_VALID, '你不能选择一个比开始日期早的结束日期。');
+str(EXCEPTION_TIME_PERIOD_NOT_VALID . '?description', '请修改开始或结束日期。'); 
 
-str(EXCEPTION_TIME_NOT_IN_PERIOD, 'You can\'t choose an end date not in parent period.');
-str(EXCEPTION_TIME_NOT_IN_PERIOD . '?description', 'Please modify the start or end date.');
+str(EXCEPTION_TIME_NOT_IN_PERIOD, '你不能选择不在父日期段的结束日期。');
+str(EXCEPTION_TIME_NOT_IN_PERIOD . '?description', '请修改开始或结束日期。');
 
 
 // Exceptions related to users
 
-str(EXCEPTION_USER_AUTHENTICATION_NEEDED, 'Sign-in required');
-str(EXCEPTION_USER_AUTHENTICATION_NEEDED . '?description', 'You must be authenticated in order to access the application. Please sign into your user account.');
+str(EXCEPTION_USER_AUTHENTICATION_NEEDED, '需要登录');
+str(EXCEPTION_USER_AUTHENTICATION_NEEDED . '?description', '你必须先通过认证再访问该应用。请登录你的账户。');
 
-str(EXCEPTION_USER_NOT_FOUND, 'The user could not be found');
-str(EXCEPTION_USER_NOT_FOUND . '?description', 'The user could not be found. It might be because your account does not have the right to access to the application.');
+str(EXCEPTION_USER_NOT_FOUND, '未找到用户');
+str(EXCEPTION_USER_NOT_FOUND . '?description', '未找到用户。可能因为你的账户没有访问该应用的权限。');
 
 
 // Exceptions related to variables
 
-str(EXCEPTION_VARIABLE_GROUP_NOT_FOUND, 'The variable group could not be found');
-str(EXCEPTION_VARIABLE_GROUP_NOT_FOUND . '?description', 'The variable group could not be found.');
+str(EXCEPTION_VARIABLE_GROUP_NOT_FOUND, '未找到变量组');
+str(EXCEPTION_VARIABLE_GROUP_NOT_FOUND . '?description', '未找到该变量组。');
 
-str(EXCEPTION_VARIABLE_INTERVAL_NOT_VALID, 'The first value given is greater than the second value');
-str(EXCEPTION_VARIABLE_INTERVAL_NOT_VALID . '?description', 'You must enter a first value lower than second value.');
+str(EXCEPTION_VARIABLE_INTERVAL_NOT_VALID, '给出的第一个值大于第二个值。');
+str(EXCEPTION_VARIABLE_INTERVAL_NOT_VALID . '?description', '你必须输入第一个值小于第二个值。');
 
-str(EXCEPTION_VARIABLE_NOT_FOUND, 'The variable could not be found');
-str(EXCEPTION_VARIABLE_NOT_FOUND . '?description', 'The variable was not declared or had no value despite being required.');
+str(EXCEPTION_VARIABLE_NOT_FOUND, '未找到变量');
+str(EXCEPTION_VARIABLE_NOT_FOUND . '?description', '虽然是必需值，但是变量未声明或没有值。');
 
-str(EXCEPTION_VARIABLE_PATH_NOT_VALID, 'The variable path is not valid');
-str(EXCEPTION_VARIABLE_PATH_NOT_VALID . '?description', 'The variable path is not valid. It might be because the path to access to this variable does not exist.');
+str(EXCEPTION_VARIABLE_PATH_NOT_VALID, '变量路径无效');
+str(EXCEPTION_VARIABLE_PATH_NOT_VALID . '?description', '变量路径无效。可能因为访问该变量的路径不存在。');
 
-str(EXCEPTION_VARIABLE_CHARACTER_NOT_ALLOWED, 'The variable contain a not allowed character');
-str(EXCEPTION_VARIABLE_CHARACTER_NOT_ALLOWED . '?description', 'The variable contain a not allowed character. You must remove this character.');
+str(EXCEPTION_VARIABLE_CHARACTER_NOT_ALLOWED, '该变量包含不允许的字符');
+str(EXCEPTION_VARIABLE_CHARACTER_NOT_ALLOWED . '?description', '该变量包含不允许的字符.你必须删除这些字符。');
 
 // Exceptions related to version control
 
-str(EXCEPTION_VERSION_CONTROL_COMMAND_FAILED, 'The version control command has failed');
-str(EXCEPTION_VERSION_CONTROL_COMMAND_FAILED . '?description', 'The version control command has failed. It might be because an error has occured when triggered a subversion command.');
+str(EXCEPTION_VERSION_CONTROL_COMMAND_FAILED, '版本控制命令失败');
+str(EXCEPTION_VERSION_CONTROL_COMMAND_FAILED . '?description', '版本控制命令失败。可能因为处罚一个subversion命令式发生错误。');
 
 
 // Exceptions related to views
 
-str(EXCEPTION_VIEW_SERVER_CACHE_NOT_AVAILABLE, 'Server-side cache not available');
-str(EXCEPTION_VIEW_SERVER_CACHE_NOT_AVAILABLE . '?description', 'Server-side cache for this view is required but could either not be found, has expired or was not granted access.');
+str(EXCEPTION_VIEW_SERVER_CACHE_NOT_AVAILABLE, '服务器端缓存不可用');
+str(EXCEPTION_VIEW_SERVER_CACHE_NOT_AVAILABLE . '?description', '该视图的必需的服务器端缓存未找到、已经过期或未授权访问。');
 
-str(EXCEPTION_VIEW_NOT_FOUND, 'The view could not be found');
+str(EXCEPTION_VIEW_NOT_FOUND, '未找到视图');
 str(EXCEPTION_VIEW_NOT_FOUND . '?description', 'The view could not be found. It might be because the path to class, model or view does not exist.');
 
 str(EXCEPTION_VIEW_PATH_NOT_VALID, 'The view path is not valid');

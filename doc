@@ -1,13 +1,13 @@
 # CURRENT:
 
+Loop\Strings\Constants\Exception_zh.php
+
 
 # UNFINISHED:
 
 Engage-Campaign\Strings\Common_zh.php
 Engage-Campaign\Strings\Models\CSequence_zh.php
 Engage-Loyalty\Strings\Models\CProgram_zh.php
-
-Engage-Social\Strings\Models\CMayorship_zh.php
 
 Loop\Strings\Constants\Exception_zh.php ->
 
