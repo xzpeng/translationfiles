@@ -157,9 +157,9 @@ str(EXCEPTION_VIEW_SERVER_CACHE_NOT_AVAILABLE, '服务器端缓存不可用');
 str(EXCEPTION_VIEW_SERVER_CACHE_NOT_AVAILABLE . '?description', '该视图的必需的服务器端缓存未找到、已经过期或未授权访问。');
 
 str(EXCEPTION_VIEW_NOT_FOUND, '未找到视图');
-str(EXCEPTION_VIEW_NOT_FOUND . '?description', 'The view could not be found. It might be because the path to class, model or view does not exist.');
+str(EXCEPTION_VIEW_NOT_FOUND . '?description', '未找到视图。可能因为类、模型或视图的路径不存在。');
 
-str(EXCEPTION_VIEW_PATH_NOT_VALID, 'The view path is not valid');
-str(EXCEPTION_VIEW_PATH_NOT_VALID . '?description', 'The view path is not valid. It might be because the page you\'re trying to rendered does not exist.');
+str(EXCEPTION_VIEW_PATH_NOT_VALID, '视图路径无效');
+str(EXCEPTION_VIEW_PATH_NOT_VALID . '?description', '视图路径无效。可能因为你想渲染的页面不存在。');
 
 ?>

@@ -40,21 +40,21 @@ $this->setString(STRING_PROPERTY, 'reactionEventName', null, '反应事件名称
 $this->setString(STRING_PROPERTY, 'reactionEventName', array('label'), '反应事件名称：');
 $this->setString(STRING_PROPERTY, 'relativeDateOfStart', null, 'Relative date of start');
 $this->setString(STRING_PROPERTY, 'relativeDateOfStart', array('label'), 'Relative date of start:');
-$this->setString(STRING_PROPERTY, 'sequenceInstances', null, 'Sequence instances');
-$this->setString(STRING_PROPERTY, 'sequenceInstances', array('label'), 'Sequence instance:');
+$this->setString(STRING_PROPERTY, 'sequenceInstances', null, '序列实例');
+$this->setString(STRING_PROPERTY, 'sequenceInstances', array('label'), '序列实例：');
 
 $this->setString(STRING_PROPERTY, 'negativeAction', null, 'Negative action');
 $this->setString(STRING_PROPERTY, 'negativeAction', array('label'), 'Negative action:');
-$this->setString(STRING_PROPERTY, 'operation', null, 'Operation');
-$this->setString(STRING_PROPERTY, 'operation', array('label'), 'Operation:');
+$this->setString(STRING_PROPERTY, 'operation', null, '操作');
+$this->setString(STRING_PROPERTY, 'operation', array('label'), '操作：');
 $this->setString(STRING_PROPERTY, 'parentAction', null, 'Parent action');
 $this->setString(STRING_PROPERTY, 'parentAction', array('label'), 'Parent action:');
 $this->setString(STRING_PROPERTY, 'positiveAction', null, 'Positive action');
 $this->setString(STRING_PROPERTY, 'positiveAction', array('label'), 'Positive action:');
 
-$this->setString(STRING_SECTION, 'custom', null, 'Custom');
-$this->setString(STRING_SECTION, 'object', null, 'Object');
-$this->setString(STRING_SECTION, 'system', null, 'System');
+$this->setString(STRING_SECTION, 'custom', null, '自定义');
+$this->setString(STRING_SECTION, 'object', null, '对象');
+$this->setString(STRING_SECTION, 'system', null, '系统');
 
 
 ?>
